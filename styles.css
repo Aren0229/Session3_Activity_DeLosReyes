@@ -1,96 +1,181 @@
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Additional CSS Properties */
 
-/* Basic styling for the body */
+/* 1. Text properties */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  text-align: left;
 }
 
-/* Header styles */
+/* 2. Background properties */
 header {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    border-bottom: 2px solid #ff6600;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
 }
 
-/* Navigation styles */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    padding: 10px;
+/* 3. Padding and Margin properties */
+article {
+  padding: 20px;
+  margin: 10px;
 }
 
-nav li {
-    margin: 0 10px;
-    font-weight: bold;
+/* 4. Border properties */
+nav {
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s;
-}
-
-nav a:hover {
-    color: #ff6600;
-}
-
-/* Main content styles */
-main {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Section styles */
-section {
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border-top: 2px solid #ff6600;
-}
-
-/* Additional styles */
-h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-p {
-    line-height: 1.5;
-}
-
+/* 5. List properties */
 ul {
-    padding: 0;
+  list-style-type: disc;
 }
 
+/* 6. Link properties */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* 7. Width and Height properties */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* 8. Display properties */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 9. Position properties */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* 10. Text Transform property */
+h1 {
+  text-transform: uppercase;
+}
+
+/* 11. Font Style property */
+h2 {
+  font-style: italic;
+}
+
+/* 12. Background Image property */
+#front-end {
+  background-image: url('front-end-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* 13. Text Shadow property */
+#back-end {
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* 14. Box Shadow property */
+#database {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 15. Opacity property */
+.container {
+  opacity: 0.8;
+}
+
+/* 16. Flex properties */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 17. Border Radius property */
+.rounded-box {
+  border-radius: 10px;
+}
+
+/* 18. Z-Index property */
+.overlay {
+  z-index: 1;
+}
+
+/* 19. Overflow property */
+.scrollable {
+  overflow: scroll;
+}
+
+/* 20. Transition properties */
+.button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 21. Animation properties */
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* 22. Text Overflow property */
+.truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 23. Letter Spacing property */
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+/* 24. Text Alignment property */
+.text-center {
+  text-align: center;
+}
+
+/* 25. Border Color property */
+.border-highlight {
+  border: 2px solid #f00;
+}
+
+/* 26. Background Gradient property */
+.gradient-bg {
+  background: linear-gradient(to bottom, #ff9900, #ff6600);
+}
+
+/* 27. List Margin property */
+ul {
+  margin-left: 20px;
+}
+
+/* 28. List Item properties */
 li {
-    margin: 5px 0;
-    list-style-type: disc;
+  padding: 5px 0;
+}
+
+/* 29. Text Decoration properties */
+a:hover {
+  text-decoration: underline;
+}
+
+/* 30. List Item Background Color property */
+li:nth-child(odd) {
+  background-color: #f2f2f2;
 }
